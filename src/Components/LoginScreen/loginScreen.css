@@ -3,15 +3,20 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+.teste{
+  background-color:#e0dcdc;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
 
+}
 .cointainer {
-  width: 100vw;
   height: 100vh;
   background-image: url("../../Assets/fundo-tela-login.png");
   background-repeat: no-repeat;
@@ -20,26 +25,26 @@ input[type="number"]::-webkit-outer-spin-button {
   background-size: cover;
 }
 .box-white {
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+
 }
 .box {
-  width: 100%;
-  max-width: 541px;
-  max-height: 582px;
   background-image: linear-gradient(to top, white 81%, white 1%, #eeebeb 18%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  border-radius: 10px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  align-content: space-between;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 541px;
+  max-height: 582px;
+
 }
 .login-title {
   font-family: "Inter";
@@ -47,6 +52,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 700;
   font-size: 17px;
   color: #686868;
+  line-height:1.8; 
 
   margin: 5px 20px 10px 30px;
 }
@@ -60,3 +66,5 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 700;
   font-size: 20px;
 }
+
+
