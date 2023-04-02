@@ -1,6 +1,6 @@
-import './App.css';
+import Home from "./LoginScreen/loginScreen";
 
-import Home from './Components/LoginScreen/loginScreen';
+import "./App.css";
 
 function App() {
   return (
